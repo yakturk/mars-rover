@@ -26,6 +26,7 @@ Expected Output:
 5 1 E
 
 Details of Code Design
+
 -> Direction Interface (North, South, West, East) : this interface was created to decide at run time Rover's direction.
 -> Coordinate class was crated to keep coordinates of Rover
 -> Rover class was created to keep data of a Rover (coordinate(X,Y), Direction d)
@@ -36,6 +37,7 @@ move of a Rover on Plateau checking for its orders.
 -> MarsRoverUtil was used to maintain main functions which are related with Rover. Such as reading file and creating Rover, Plateau.
 
 To Test the code:
+
 - download project
 - import to your IDE
 - click run for MarsRoverApplication or from Maven tab you can click "test" to run tests of junit.
