@@ -28,14 +28,14 @@ Expected Output:
 -------------------------------------------------------------------------------------------------
 Details of Code Design
 
--> Direction Interface (North, South, West, East) : this interface was created to decide at run time Rover's direction.
--> Coordinate class was crated to keep coordinates of Rover
--> Rover class was created to keep data of a Rover (coordinate(X,Y), Direction d)
--> Platea class was created to keep data of Plateau (Coordinate(X,Y));
--> OrderCoordinator class was used to keep together a Rover and its Orders. such as: (Rover(1,2,N), Orders("LMLMLMLMM")); So OrderCoordinator coordinates 
+- Direction Interface (North, South, West, East) : this interface was created to decide at run time Rover's direction.
+- Coordinate class was crated to keep coordinates of Rover
+- Rover class was created to keep data of a Rover (coordinate(X,Y), Direction d)
+- Platea class was created to keep data of Plateau (Coordinate(X,Y));
+- OrderCoordinator class was used to keep together a Rover and its Orders. such as: (Rover(1,2,N), Orders("LMLMLMLMM")); So OrderCoordinator coordinates 
 move of a Rover on Plateau checking for its orders.
--> DataChecker was used to check data in the file and if it is not valid, it throws DataFormatException.
--> MarsRoverUtil was used to maintain main functions which are related with Rover. Such as reading file and creating Rover, Plateau.
+- DataChecker was used to check data in the file and if it is not valid, it throws DataFormatException.
+- MarsRoverUtil was used to maintain main functions which are related with Rover. Such as reading file and creating Rover, Plateau.
 
 To Test the code:
 
